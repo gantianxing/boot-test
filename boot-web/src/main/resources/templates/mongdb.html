@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org"
+      xmlns:sec="http://www.thymeleaf.org/thymeleaf-extras-springsecurity3">
+<head>
+    <title>thymeleaf</title>
+    <link rel="stylesheet" href="/css/main.css"/>
+</head>
+<body>
+<div id="global">
+    <p th:text="${order.id}"></p>
+    <p th:text="${order.customer}"></p>
+    <p th:text="${order.desc}"></p>
+
+    <h5>商品列表</h5>
+    <p th:each="product:${order.products}">
+       <p th:text=" ${product.id}"></p>
+       <p th:text="${product.name}"></p>
+       <p th:text="${product.price}"></p>
+       <p th:text="${product.num}"></p>
+    </p>
+</div>
+</body>
+</html>
