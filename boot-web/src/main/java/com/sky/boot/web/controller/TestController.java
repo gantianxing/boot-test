@@ -1,11 +1,11 @@
 package com.sky.boot.web.controller;
 
-import com.sky.boot.dao.dubbo.OneService;
 import com.sky.boot.domain.mongo.Order;
 import com.sky.boot.domain.mongo.Product;
 import com.sky.boot.domain.mysql.Test;
 import com.sky.boot.service.OrderService;
 import com.sky.boot.service.TestService;
+import com.sky.boot.service.dubbo.OneService;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 

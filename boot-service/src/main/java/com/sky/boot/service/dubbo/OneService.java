@@ -1,4 +1,4 @@
-package com.sky.boot.dao.dubbo;
+package com.sky.boot.service.dubbo;
 
 /**
  * Created by gantianxing on 2017/8/8.

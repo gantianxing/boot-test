@@ -1,4 +1,4 @@
-package com.sky.boot.dao.dubbo;
+package com.sky.boot.service.dubbo;
 
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.context.annotation.Bean;
